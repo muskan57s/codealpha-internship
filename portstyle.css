@@ -1,0 +1,350 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body{
+    height:100%;
+    width:100%;
+    background:rgb(251, 244, 238);
+    color:rgb(11, 7, 7); 
+    font-family:sans-serif;
+}
+
+ nav{
+    display:flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    background-color:teal ;
+ }
+  ul{
+    display:flex;
+    justify-content:center;
+    
+ }
+ ul li{
+    list-style: none;
+    margin:0 22px;
+  color:white;
+  line-height: 30px;
+ }
+ ul a{
+    text-decoration: none;
+    color:rgb(243, 238, 238);
+    
+ }
+ ul a  :hover{
+     color:rgb(10, 0, 0);
+     font-size:1.1rem;
+     text-decoration:underline;
+ }
+ left-nav{
+    font-size:2rem;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+
+ }
+ 
+ .main-1 {
+   display:flex;
+   align-items:center;
+   justify-content:space-around;
+   margin:30px 0;
+   height:80%;
+ }
+ .left{
+    font-size:2rem;
+    color:black;
+    margin-top:60px;
+    margin-left:60px;
+ }
+
+ .left h3{
+   color:teal;
+   font-style: italic;
+   font-family:monospace;
+ }
+ .left p{
+   padding:15px;
+   margin-top: 10px;
+   font-size:1rem;
+   font-weight:600;
+   font-style: italic;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ #element{
+   font-size:1rem;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:rgba(8, 75, 36, 0.95);
+ }
+
+ .left button{
+   padding:10px 8px;
+   background-color: teal;
+   color:rgb(249, 246, 246);
+   margin-top:60px;
+   border-radius: 5px ;
+   font-weight: bold;
+   border:none;
+ }
+ .left button:hover{
+  background:white;
+  color:black;
+  border:1px solid teal;
+ }
+#icons{
+  margin-left: 80px;
+}
+ #icons i{
+  margin-top: 40px;
+  color:teal;
+  padding:15px;
+  gap:10px;
+  font-size:22px;
+
+  box-shadow:20px 15px 12px white;
+ }
+ #icons i:hover{
+  font-size:20px;
+  background-color: rgb(57, 138, 138);
+  border:1px solid teal;
+  border-radius:15px;
+  color:white;
+ }
+
+  span#front{
+       margin-left: 25px;
+ }
+ 
+ span#create{
+   color:rgba(8, 75, 36, 0.95);
+   font-size:1.5rem;
+   font-family:'Courier New', Courier, monospace;
+   font-weight: 600;
+ }
+ .main-1 > div{
+    width:35%;
+ }
+ 
+ .right img{
+       mix-blend-mode:darken;
+       height:400px;
+       width:550px;
+       margin-top: 40px;
+       border-radius: 20px 30px;
+ }
+
+ hr{
+   width:80%;
+   
+   margin-left: 12%;
+ }
+
+ .main-2 {
+   width:80%;
+   height:auto;
+   text-align:center;
+   margin-left:10%;
+ }
+
+ .main-2 h3{
+  text-decoration: 1px underline;
+   color:teal;
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   margin:30px 0;
+   font-size:2rem;
+  
+ }
+
+ .main-2 p{
+      line-height:35px;
+      margin:0 3vw;
+      margin-top:35px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      font-size:17px;
+      color:black;
+      margin-bottom: 12px;
+ }
+
+ .skills{
+   width:500px;
+   text-align:center;
+  padding:20px;
+  margin:42px auto;
+  color:white;
+  background-color:rgb(39, 156, 156);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+ }
+
+ .main-3 h1{
+   text-decoration: 1px underline;
+   color:teal;
+  margin-top:30px;
+   font-size:2rem;
+  text-align: center;
+  }
+  
+ .skills h3{
+  margin:5px;
+ }
+
+ .skills li{
+     margin:20px 0;
+     padding:12x;
+ }
+ .bar{
+  background:white;
+  height:20px;
+  border:1px solid rgba(252, 251, 252, 0.83);
+  border-radius:12px;
+  display:block;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(253, 244, 244, 0.12),0 1px 2px rgba(255, 240, 240, 0.24);
+  transform: all 0.3s cubic-bizare(.25,.8,.25,1);
+ }
+
+ .bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0,0,0,0.22);
+
+ }
+ .bar span{
+  height:20px;
+  float:left;
+  background:-webkit-linear-gradient(135deg,rgb(11, 10, 11)0%, rgb(8, 5, 5)100%);
+ }
+  .html{
+    width:90%;
+    animation:html 3s;
+  }
+  .css{
+    width:85%;
+    animation:css 3s;
+  }
+  .script{
+    width:60%;
+    animation:script 3s;
+  }
+  .clang{
+    width:85%;
+    animation:clang 3s;
+  }
+  .cpp{
+    width:75%;
+    animation:cpp 3s;
+  }
+  .python{
+    width:50%;
+    animation:python 3s;
+  }
+
+  @keyframes html{
+    0%{
+      width:0%;
+    }
+    100%{
+      width:90%;
+    }
+  }
+
+  @keyframes css{
+    0%{
+      width:0%;
+    }
+    100%{
+      width:85%;
+    }
+  }
+  @keyframes script{
+    0%{
+      width:0%;
+    }
+    100%{
+      width:60%;
+    }
+  }
+  @keyframes clang{
+    0%{
+      width:0%;
+    }
+    100%{
+      width:80%;
+    }
+  }
+  @keyframes cpp{
+    0%{
+      width:0%;
+    }
+    100%{
+      width:75%;
+    }
+  }
+  @keyframes python{
+    0%{
+      width:0%;
+    }
+    100%{
+      width:50%;
+    }
+  }
+
+  .last h2{
+    text-align: center;
+    color:teal;
+    text-decoration: 1px underline;
+   margin-top:30px;
+    font-size:2rem;
+  }
+
+  .contact{
+    text-align: center;
+    width:500px;
+    margin:42px auto;
+    background-color: white;
+    color:teal;
+    box-shadow: 0 16px 18px 20px rgba(0, 0, 0, 0.25),0 15px 10px 10px rgba(0,0,0,0.22);
+
+  }
+
+  .con-1{
+    width:400px;
+    font-size: 1rem;
+    margin-top:20px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .con-1 #form{
+    padding-top:25px;
+  }
+ 
+#form #name,#mail,#sub{
+  padding:5px;
+  width: 75%;
+}
+#msg{
+  padding:50px 60px;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+#btn3{
+  margin:10px ;
+  padding:8px 10px;
+  background-color:rgb(42, 159, 159);
+  color:rgb(241, 243, 243);
+  border: none;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 10px ;
+  margin-left:35px;
+  width:30vw;
+}
+#btn3:hover{
+  background:white;
+  color:teal;
+}
+  
